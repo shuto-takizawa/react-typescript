@@ -6,6 +6,9 @@ $ docker-compose up -d --build
 **コンテナに入る**
 $ docker exec -it <container_name> sh
 
+**ライブラリインストール**
+$ yarn install
+
 **サーバ起動**
 $ yarn start
 
