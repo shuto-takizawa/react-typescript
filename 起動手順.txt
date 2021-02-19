@@ -1,0 +1,25 @@
+# 起動手順
+
+**イメージとコンテナの作成**
+$ docker-compose up -d --build
+
+**コンテナに入る**
+$ docker exec -it <container_name> sh
+
+**サーバ起動**
+$ yarn start
+
+**ブラウザにアクセス**
+http://localhost:3000/
+
+# 次回以降
+
+**コンテナ起動**
+$ docker-compose start
+
+**コンテナ入る&サーバ起動**
+上のコマンドを参照
+
+# アプリ作成
+$ npx create-react-app <app_name> --template typescript
+既にアプリは作成してあるので、上記コマンドは自分でアプリ作ってみたければ実行してください。
